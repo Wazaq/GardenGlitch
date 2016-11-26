@@ -5,7 +5,7 @@ using System.Collections;
 [RequireComponent (typeof(Text))]
 public class StarDisplay : MonoBehaviour {
 
-	private int stars = 75;
+	public int stars = 75;
 	private Text currency;
 	public enum Status {SUCCESS, FAILURE}
 
