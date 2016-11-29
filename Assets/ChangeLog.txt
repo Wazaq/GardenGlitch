@@ -12,8 +12,8 @@ Changes:
 ************************
 ************************
 Version: Alpha 0.3
-Date: TBD
-URL: 
+Date: 2016-11-29
+URL: http://gamebucket.io/game/7ea983aa-37c2-414b-92e4-e86a570fcfa8
 Changes:
 *Features*
  - N/A
