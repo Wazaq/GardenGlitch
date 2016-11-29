@@ -42,4 +42,3 @@ Date: 2016/11/23
 URL: http://gamebucket.io/game/d5b7280e-5b55-476e-ba9f-fadbf3164386
 Changes: Alpha game published.  3 Testers trying it out.
 ************************
-
