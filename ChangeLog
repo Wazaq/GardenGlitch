@@ -10,22 +10,7 @@ Changes:
 *Misc*
  - 
 ************************
-************************
-Version: Alpha 0.3
-Date: 2016-11-29
-URL: http://gamebucket.io/game/7ea983aa-37c2-414b-92e4-e86a570fcfa8
-Changes:
-*Features*
- - N/A
-*Bugs* 
- - Fixed pause not showing the correct speed, now when unpaused, speed button will show 1X
- - Defenders now does not start attacking until the attacker shows up on the play space.
- - Modified the Lizards collider, it was missing the stone collide.
-*Misc*
- - Cleaned up alot of un-used code.
- - Removed Setvolume script, no longer needed, being handled by the Music Manager.
- - Created method to destroy everything on win, this prevents complications during the win sequence 
-************************
+
 ************************
 Version: Alpha 0.2
 Date: 2016/11/26
