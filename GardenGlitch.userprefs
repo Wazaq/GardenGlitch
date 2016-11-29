@@ -1,16 +1,17 @@
 ﻿<Properties GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Shooter.cs">
     <Files>
-      <File FileName="Assets\Scripts\LevelManager.cs" Line="50" Column="37" />
-      <File FileName="Assets\Scripts\StarDisplay.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameTimer.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Pause.cs" Line="26" Column="16" />
-      <File FileName="Assets\Scripts\OptionsController.cs" Line="15" Column="61" />
-      <File FileName="Assets\Scripts\DefenderSpawner.cs" Line="1" Column="19" />
-      <File FileName="Assets\Scripts\FadeIn.cs" Line="30" Column="2" />
-      <File FileName="Assets\Scripts\FastForward.cs" Line="7" Column="8" />
-      <File FileName="Assets\Scripts\Shooter.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LevelManager.cs" Line="30" Column="8" />
+      <File FileName="Assets\Scripts\GameTimer.cs" Line="16" Column="4" />
+      <File FileName="Assets\Scripts\DefenderSpawner.cs" Line="23" Column="5" />
+      <File FileName="Assets\Scripts\Shooter.cs" Line="49" Column="98" />
+      <File FileName="Assets\ChangeLog.txt" Line="23" Column="68" />
+      <File FileName="Assets\Scripts\Attackers\Spawners.cs" Line="8" Column="24" />
+      <File FileName="Assets\Scripts\Attackers\Spawner.cs" Line="21" Column="45" />
+      <File FileName="Assets\Scripts\Button.cs" Line="11" Column="24" />
+      <File FileName="Assets\Scripts\FadeIn.cs" Line="5" Column="38" />
+      <File FileName="Assets\Scripts\Defenders\GraveStone.cs" Line="15" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

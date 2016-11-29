@@ -16,8 +16,6 @@ public class FadeIn : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//Image panelController = GetComponent<Image>();
-		Debug.LogWarning(Time.timeSinceLevelLoad);
 		if (Time.timeSinceLevelLoad < fadeInTime) {
 			float alphaChange = Time.deltaTime / fadeInTime;
 			currentColor.a -= alphaChange;

@@ -13,7 +13,7 @@ public class GameTimer : MonoBehaviour {
 	private AudioSource sound; // Winning game sound
 	private Attacker attacker; // So we can tweak the difficulty as the level goes on.
 	private LevelManager levelmanager;
-	private Spawners myLaneSpawners; //Watches the different lanes
+	//private Spawner myLaneSpawners; //Watches the different lanes
 	private GameObject winLabel; //The winning text
 	private float quietTime = 10f; //10 seconds quiet time for player to get ready.
 
@@ -34,10 +34,6 @@ public class GameTimer : MonoBehaviour {
 		} else {
 			quietTime -= Time.deltaTime;
 		}
-		//Debug.LogWarning ("QuietTime: " + quietTime);
-		//Debug.Log ("Atk wait time: " + attacker.seenEverySeconds);
-		//Debug.Log ("Slider Value: " + slider.value);
-		//attacker.seenEverySeconds = attacker.seenEverySeconds - 0.1f;
 	}
 
 	void FindYouWin ()
@@ -53,25 +49,30 @@ public class GameTimer : MonoBehaviour {
 		//Once we win, this won't be called again causeing a crazy loop
 		if (won == false) { // We have not won yet
 			if (slider.value >= 1) {
-				print ("You have beaten the level!");
-				won = true;
-				sound.Play (); // Play the clip
-				winLabel.SetActive(true); //Enable/show the winning text.
-				Invoke ("WonLoadNextLevel", sound.clip.length);
+				HandleWinCondition ();
 			} else {
 				slider.value += Time.deltaTime / levelTime; //using delta time becuase of the buildtime in the beginning of the level
 				buildTime = false;
-				//increaseSpawnRate();
-				//slider.value = Time.timeSinceLevelLoad / levelTime;
 			}
 		}
 
 		// TODO: Now let's watch to see if there are any more attackers, if not, then we can end the level
 	}
 
-	void increaseSpawnRate()  {
-		if (slider.value >= 0.5f) {
-			attacker.seenEverySeconds -= 0.1f;
+	void HandleWinCondition ()
+	{
+		DestroyAllTaggedObjects();
+		won = true;
+		sound.Play ();// Play the clip
+		winLabel.SetActive (true);//Enable/show the winning text.
+		Invoke ("WonLoadNextLevel", sound.clip.length);
+	}
+
+	// Destroy all objects when won so nothing runs in the background
+	void DestroyAllTaggedObjects() {
+		GameObject[] killAllArray = GameObject.FindGameObjectsWithTag("destroyOnWin");
+		foreach (GameObject killAll in killAllArray) {
+			Destroy (killAll);
 		}
 	}
 

@@ -1,0 +1,45 @@
+************************
+Version: Alpha x.x
+Date: TBD
+URL: 
+Changes:
+*Features*
+ - 
+*Bugs* 
+ - 
+*Misc*
+ - 
+************************
+************************
+Version: Alpha 0.3
+Date: TBD
+URL: 
+Changes:
+*Features*
+ - N/A
+*Bugs* 
+ - Fixed pause not showing the correct speed, now when unpaused, speed button will show 1X
+ - Defenders now does not start attacking until the attacker shows up on the play space.
+ - Modified the Lizards collider, it was missing the stone collide.
+*Misc*
+ - Cleaned up alot of un-used code.
+ - Removed Setvolume script, no longer needed, being handled by the Music Manager.
+ - Created method to destroy everything on win, this prevents complications during the win sequence 
+************************
+************************
+Version: Alpha 0.2
+Date: 2016/11/26
+URL: http://gamebucket.io/game/7c74952c-cf6b-41a1-81ac-e6699383e5ed
+Changes: 
+- Fixed Win message
+- Basic pause menu created
+- FastForward button added
+- Until things are fleshed out more, there is only 1 level with everything unlocked/available.
+************************
+************************
+Version: Alpha 0.1
+Date: 2016/11/23
+URL: http://gamebucket.io/game/d5b7280e-5b55-476e-ba9f-fadbf3164386
+Changes: Alpha game published.  3 Testers trying it out.
+************************
+

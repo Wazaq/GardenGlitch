@@ -31,7 +31,7 @@ GameObject:
   - 114: {fileID: 11457784}
   m_Layer: 0
   m_Name: Lizard
-  m_TagString: Attackers
+  m_TagString: destroyOnWin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55,7 +55,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 173050}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9, y: 4, z: 0}
+  m_LocalPosition: {x: 9.02200031, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 473048}
@@ -71,7 +71,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Size: {x: .5, y: .5}
-  m_Center: {x: .330000013, y: 0}
+  m_Center: {x: .310000002, y: 0}
 --- !u!95 &9573050
 Animator:
   serializedVersion: 3

@@ -8,7 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 438458}
-  - 114: {fileID: 11438458}
+  - 114: {fileID: 11428576}
   m_Layer: 0
   m_Name: Lane 4
   m_TagString: Untagged
@@ -24,7 +24,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 438460}
-  - 114: {fileID: 11438460}
+  - 114: {fileID: 11428568}
   m_Layer: 0
   m_Name: Lane 5
   m_TagString: Untagged
@@ -55,7 +55,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 438464}
-  - 114: {fileID: 11438462}
+  - 114: {fileID: 11428570}
   m_Layer: 0
   m_Name: Lane 2
   m_TagString: Untagged
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 438466}
-  - 114: {fileID: 11438464}
+  - 114: {fileID: 11428574}
   m_Layer: 0
   m_Name: Lane 1
   m_TagString: Untagged
@@ -87,7 +87,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 438468}
-  - 114: {fileID: 11438466}
+  - 114: {fileID: 11428572}
   m_Layer: 0
   m_Name: Lane 3
   m_TagString: Untagged
@@ -172,21 +172,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 438462}
   m_RootOrder: 2
---- !u!114 &11438458
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 138458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d1feebbb383b754280df0c44d559182, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackerPrefabArray:
-  - {fileID: 171626, guid: 2e9d88f7c9610ca43a980f12f86c1e98, type: 2}
-  - {fileID: 173050, guid: 91b4b591b5d975545bc1aa58187d261d, type: 2}
---- !u!114 &11438460
+--- !u!114 &11428568
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -200,7 +186,7 @@ MonoBehaviour:
   attackerPrefabArray:
   - {fileID: 171626, guid: 2e9d88f7c9610ca43a980f12f86c1e98, type: 2}
   - {fileID: 173050, guid: 91b4b591b5d975545bc1aa58187d261d, type: 2}
---- !u!114 &11438462
+--- !u!114 &11428570
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -214,7 +200,21 @@ MonoBehaviour:
   attackerPrefabArray:
   - {fileID: 171626, guid: 2e9d88f7c9610ca43a980f12f86c1e98, type: 2}
   - {fileID: 173050, guid: 91b4b591b5d975545bc1aa58187d261d, type: 2}
---- !u!114 &11438464
+--- !u!114 &11428572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1feebbb383b754280df0c44d559182, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackerPrefabArray:
+  - {fileID: 171626, guid: 2e9d88f7c9610ca43a980f12f86c1e98, type: 2}
+  - {fileID: 173050, guid: 91b4b591b5d975545bc1aa58187d261d, type: 2}
+--- !u!114 &11428574
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -228,12 +228,12 @@ MonoBehaviour:
   attackerPrefabArray:
   - {fileID: 171626, guid: 2e9d88f7c9610ca43a980f12f86c1e98, type: 2}
   - {fileID: 173050, guid: 91b4b591b5d975545bc1aa58187d261d, type: 2}
---- !u!114 &11438466
+--- !u!114 &11428576
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 138468}
+  m_GameObject: {fileID: 138458}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d1feebbb383b754280df0c44d559182, type: 3}

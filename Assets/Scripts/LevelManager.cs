@@ -8,7 +8,6 @@ public class LevelManager : MonoBehaviour {
 	//public float autoLoadNextLevelAfter;
 
 	private GameObject pauseScreen, speedColor;
-	//private bool speedUp = false;
 
 	void Start() {
 		pauseScreen = GameObject.FindGameObjectWithTag("PauseScreen");
@@ -36,9 +35,9 @@ public class LevelManager : MonoBehaviour {
 		Application.LoadLevel(Application.loadedLevel + 1);
 	}
 
-	// Controll the speed up button in it's own script
+	// Controll the speed up button
 	public void SpeedUpTheGame(bool speedUp) {
-		Image color = GetComponent<Image>();
+		//Image color = GetComponent<Image>();
 
 		if (speedUp) {
 			Time.timeScale = 2;
@@ -50,6 +49,4 @@ public class LevelManager : MonoBehaviour {
 			speedColor.GetComponentInChildren<Text>().text = "1X";
 		}
 	}
-	
-
 }

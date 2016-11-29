@@ -16,7 +16,7 @@ public class MusicManager : MonoBehaviour {
 	void Start(){
 		audioSource = GetComponent<AudioSource>();
 		audioSource.clip = levelMusicChangeArray[0]; //We set the clip to be the clip in the array
-		audioSource.volume = 0.25f; //Lower the volume so we don't blow our ears out.
+		audioSource.volume = PlayerPrefsManager.GetMasterVolume();
 		audioSource.Play (); //We play the clip
 	}
 	

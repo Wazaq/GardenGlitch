@@ -11,7 +11,6 @@ public class DefenderSpawner : MonoBehaviour {
 	//private Defenders defenders;
 	
 	void Start() {
-		//defenders = GameObject.FindObjectOfType<Defenders>();
 		parent = GameObject.Find ("Defenders");
 		starDisplay = GameObject.FindObjectOfType<StarDisplay>();
 		if (!parent) {
@@ -21,7 +20,7 @@ public class DefenderSpawner : MonoBehaviour {
 
 	void OnMouseDown () {
 		Vector2 rawPos = CalculateWorldPointOfMouseClick();
-		Vector2 roundedPos = SnapToGrid (rawPos);
+		//Vector2 roundedPos = SnapToGrid (rawPos);
 		placeDefender = SnapToGrid (CalculateWorldPointOfMouseClick());
 		GameObject defender = Button.selectedDefender;
 //		Debug.Log (CalculateWorldPointOfMouseClick());
