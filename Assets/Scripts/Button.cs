@@ -29,7 +29,7 @@ public class Button : MonoBehaviour {
 	}
 
 	void OnMouseDown() {
-		print (name + " pressed");
+		//print (name + " pressed");
 
 		foreach (Button thisButton in buttonArray) {
 			thisButton.GetComponent<SpriteRenderer>().color = Color.black;
@@ -37,7 +37,7 @@ public class Button : MonoBehaviour {
 
 		GetComponent<SpriteRenderer>().color = Color.white;
 		selectedDefender = defenderPrefab;
-		print (selectedDefender);
+		//print (selectedDefender);
 
 	}
 }

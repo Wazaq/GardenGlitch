@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class LevelManager : MonoBehaviour {
@@ -15,7 +16,7 @@ public class LevelManager : MonoBehaviour {
 		Time.timeScale = 1; //This is so time can resume if we come here from the pause screen
 
 		if (waitTime <= 0) {
-			Debug.Log ("Level auto load disabled, use a positive number in seconds.");
+			//Debug.Log ("Level auto load disabled, use a positive number in seconds.");
 		} else {
 			Invoke ("LoadNextLevel", waitTime);
 		}
@@ -23,7 +24,8 @@ public class LevelManager : MonoBehaviour {
 
 	public void LoadLevel(string name) {
 		Debug.Log("Level Load request for: " + name);
-		Application.LoadLevel(name);
+		SceneManager.LoadScene(name);
+		//Application.LoadLevel(name);
 	}
 
 	public void QuitLevel() {
@@ -32,7 +34,10 @@ public class LevelManager : MonoBehaviour {
 	}
 
 	public void LoadNextLevel() {
-		Application.LoadLevel(Application.loadedLevel + 1);
+		int indexSC = SceneManager.GetActiveScene().buildIndex;
+		SceneManager.LoadScene(indexSC +1);
+		//SceneManager.LoadScene(SceneManager.sceneLoaded(SceneManager.sceneLoaded += 1));
+		//Application.LoadLevel(Application.loadedLevel + 1);
 	}
 
 	// Controll the speed up button

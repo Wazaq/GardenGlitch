@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Attackers\Attacker.cs" />
      <Compile Include="Assets\Scripts\Attackers\Fox.cs" />
+     <Compile Include="Assets\Scripts\Attackers\Lane.cs" />
      <Compile Include="Assets\Scripts\Attackers\Lizard.cs" />
      <Compile Include="Assets\Scripts\Attackers\Spawner.cs" />
      <Compile Include="Assets\Scripts\Attackers\Spawners.cs" />
@@ -75,7 +76,6 @@
      <Compile Include="Assets\Scripts\Shredder.cs" />
      <Compile Include="Assets\Scripts\StarDisplay.cs" />
      <Compile Include="Assets\Scripts\VolumeFixer.cs" />
-     <None Include="Assets\ChangeLog.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity4_7/Editor/Data/UnityExtensions/Unity/GUISystem/4.7.2/Standalone/UnityEngine.UI.dll</HintPath>
  </Reference>
