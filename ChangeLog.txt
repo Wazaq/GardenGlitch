@@ -11,6 +11,21 @@ Changes:
  - 
 ************************
 ************************
+Version: Alpha 0.4
+Date: 2016-12-08
+URL: http://gamebucket.io/game/3effc571-d558-482a-9b8f-de069b1f231e
+Changes:
+*Features*
+ - Added a Restart button, it will restart the current level
+*Bugs* 
+ - Fixed the broken Pause and Speedup buttons after converting to Unity 5
+*Misc*
+ - Simplified the Pause screen
+ - Builds are now in WebGL, so they should be able to run on any browser
+ - Added current build version to the title screen.
+ - For testing purposes, starting stars will be 1000. Level time will be 3 minutes.
+************************
+************************
 Version: Alpha 0.3
 Date: 2016-11-29
 URL: http://gamebucket.io/game/7ea983aa-37c2-414b-92e4-e86a570fcfa8
