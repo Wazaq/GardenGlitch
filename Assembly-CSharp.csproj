@@ -51,8 +51,6 @@
      <Compile Include="Assets\Scripts\Attackers\Lane.cs" />
      <Compile Include="Assets\Scripts\Attackers\Lizard.cs" />
      <Compile Include="Assets\Scripts\Attackers\Spawner.cs" />
-     <Compile Include="Assets\Scripts\Attackers\Spawners.cs" />
-     <Compile Include="Assets\Scripts\Button.cs" />
      <Compile Include="Assets\Scripts\CameraGizmo.cs" />
      <Compile Include="Assets\Scripts\DefenderSpawner.cs" />
      <Compile Include="Assets\Scripts\Defenders\Defenders.cs" />
@@ -60,6 +58,7 @@
      <Compile Include="Assets\Scripts\FadeIn.cs" />
      <Compile Include="Assets\Scripts\FadeOut.cs" />
      <Compile Include="Assets\Scripts\FastForward.cs" />
+     <Compile Include="Assets\Scripts\GUI\Button.cs" />
      <Compile Include="Assets\Scripts\GameTimer.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
@@ -76,9 +75,6 @@
      <Compile Include="Assets\Scripts\Shredder.cs" />
      <Compile Include="Assets\Scripts\StarDisplay.cs" />
      <Compile Include="Assets\Scripts\VolumeFixer.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -93,9 +89,6 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
